@@ -49,7 +49,7 @@ const Footer = () => {
                     style={{ color: "white" ,marginLeft:"7px"}}
                     href="https://www.linkedin.com/company/marcaids/"
                   >
-                    <i className="fa-brands fa-linkedin"></i>
+                    <i className="fa-brands fa-x-twitter"></i>
                   </a>
                   <a
                     style={{ color: "white" ,marginLeft:"7px" }}
