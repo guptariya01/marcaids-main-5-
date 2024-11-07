@@ -6,6 +6,7 @@ import aaboutus from "../../assets/aaboutus.jpeg";
 import Navbar from '../Navbar';
 import Footer from "../Footer/Footer";
 import ReactGA from 'react-ga4';
+import { Helmet } from "react-helmet";
 import "./AboutUs.css"
 
 // const GoogleAnalytics = ({ G-GE2CXX9DG7 }) => {
@@ -26,6 +27,7 @@ function AboutUs() {
       <Navbar />
       <div>
       <Helmet>
+      <meta charSet="utf-8" />
         <title>About Marcaids | Leading Digital Marketing Agency in the USA</title>
         <meta name="description" content="As a leading digital marketing agency in the USA, Marcaids aims to build brands to perfection and accelerate their growth and revenue in the digital space." />
         <meta name="keywords" content="react, seo, react-helmet" />

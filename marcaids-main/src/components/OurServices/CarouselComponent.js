@@ -3,10 +3,20 @@ import styles from './CarouselComponent.module.css';
 import Navbar from "../Navbar";
 import CircularCarousel from "./CircularCarousel";
 import Product1 from '../../assets/photobackgroung.png';
+import { Helmet } from "react-helmet";
 
 
 const CarouselComponent = () => {
     return (
+        <>
+        <div>
+      <Helmet>
+      <meta charSet="utf-8" />
+        <title>Digital Marketing Services | SEO, PPC, Social Media & More</title>
+        <meta name="description" content="Scale your brand with the leading digital marketing agency in the USA! Marcaids delivers performance marketing, SEO, social media, web design, and more." />
+        <meta name="keywords" content="react, seo, react-helmet" />
+      </Helmet>
+    </div>
         <div className={styles.container}>
             <Navbar />
             <div
@@ -29,6 +39,7 @@ const CarouselComponent = () => {
             {/* Circular Carousel Component */}
             <CircularCarousel />
         </div>
+        </>
     );
 };
 
