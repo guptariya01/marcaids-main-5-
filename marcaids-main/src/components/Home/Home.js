@@ -12,6 +12,7 @@ import home2 from "../../assets/home-2.jpeg";
 import home4 from "../../assets/home-4.jpeg";
 import HeroSection from './HeroSection';
 import Footer from "../Footer/Footer";
+import { Helmet } from "react-helmet";
 import './Home.module.css'
 
 
@@ -19,6 +20,14 @@ import './Home.module.css'
 const Home = () => {
   return (
     <>
+     <div>
+      <Helmet>
+        <title>Marcaids | Best digital marketing agency in the USA</title>
+        <meta name="description" content="Looking for the best digital marketing agency in Houston? Marcaids is your go-to marketing agency that'll help your brand become the best in your industry." />
+        <meta name="keywords" content="react, seo, react-helmet" />
+      </Helmet>
+    </div>
+
       <HeroSection />
       <div className="w-full   font-sans text-black">
         
@@ -68,7 +77,7 @@ const Home = () => {
         <section className="relative bg-[#867c6e] p-8  mt-12">
   <h2 className="text-3xl sm:text-4xl lg:text-6xl lg:mb-4 mb-2 text-left" style={{ fontFamily: 'Imprima, sans-serif' }}>What we do?</h2>
   <div className="flex flex-col lg:flex-row lg:items-start lg:space-x-8 ml-2 mr-2">
-    <p className="flex-1 mb-2 lg:mb-0 text-base sm:text-lg lg:text-4xl leading-relaxed text-left mt-4" style={{ fontFamily: 'Imprima, sans-serif' }}>
+    <p className="flex-1 mb-2 lg:mb-0 text-base sm:text-lg lg:text-3xl leading-relaxed text-left mt-4" style={{ fontFamily: 'Imprima, sans-serif' }}>
       Your brand isn’t just a business—it’s a story waiting to be told. At Marcaids, we specialize in bringing that story to life. As one of the top marketing agencies in the USA, we craft marketing strategies that are as unique as your brand. From performance marketing that boosts ROI and ROAS to strategic brand development that sets you apart, we offer everything to elevate your brand. Whether you’re looking for the best content creation agency in the USA or a web design and development partner, we combine creativity and strategy to deliver campaigns with real impact. Ready to make your mark with digital marketing? Let’s do it together!
     </p>
     <img src={whatwedo} alt="What we do" className="w-full max-h-[250px] sm:max-h-[350px] lg:max-h-[390px] lg:w-[390px] rounded-lg object-cover mt-6" />

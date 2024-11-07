@@ -4,6 +4,7 @@ import Navbar from "../Navbar";
 import ConcentricCircle from "./ConcentricCircle";
 import "./HeroSection.css";
 
+
 const HeroSection = () => {
   const [isOpen, setIsOpen] = useState(false); // Controls HeroSection opening
   const [showTextLayer, setShowTextLayer] = useState(false); // Controls text layer visibility

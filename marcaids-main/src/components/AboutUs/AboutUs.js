@@ -5,11 +5,24 @@ import aboutus3 from "../../assets/aboutus3.jpg";
 import aaboutus from "../../assets/aaboutus.jpeg";
 import Navbar from '../Navbar';
 import Footer from "../Footer/Footer";
+import ReactGA from 'react-ga4';
 import "./AboutUs.css"
+
+// const GoogleAnalytics = ({ G-GE2CXX9DG7 }) => {
+//   useEffect(() => {
+//     ReactGA.initialize(G-GE2CXX9DG7);
+//     ReactGA.send("pageview");
+//   }, [G-GE2CXX9DG7]);
+
+//   return null;
+// };
+
+// export default GoogleAnalytics;
 
 function AboutUs() {
   return (
     <>
+    
       <Navbar />
 
       <section className="aboutUsIntro">
