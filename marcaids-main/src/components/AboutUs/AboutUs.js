@@ -24,6 +24,13 @@ function AboutUs() {
     <>
     
       <Navbar />
+      <div>
+      <Helmet>
+        <title>About Marcaids | Leading Digital Marketing Agency in the USA</title>
+        <meta name="description" content="As a leading digital marketing agency in the USA, Marcaids aims to build brands to perfection and accelerate their growth and revenue in the digital space." />
+        <meta name="keywords" content="react, seo, react-helmet" />
+      </Helmet>
+    </div>
 
       <section className="aboutUsIntro">
         <div className="container mx-auto lg:px-4 px-0">

@@ -22,6 +22,7 @@ const Home = () => {
     <>
      <div>
       <Helmet>
+      <meta charSet="utf-8" />
         <title>Marcaids | Best digital marketing agency in the USA</title>
         <meta name="description" content="Looking for the best digital marketing agency in Houston? Marcaids is your go-to marketing agency that'll help your brand become the best in your industry." />
         <meta name="keywords" content="react, seo, react-helmet" />
