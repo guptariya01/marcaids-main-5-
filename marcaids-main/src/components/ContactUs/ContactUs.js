@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import Footer from '../Footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { Helmet } from "react-helmet";
 
 const ContactForm = () => {
   const [firstName, setFirstName] = useState('');
