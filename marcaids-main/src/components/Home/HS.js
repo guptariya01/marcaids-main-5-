@@ -43,7 +43,11 @@ const HS = () => {
           className={`HS ${
             isOpen ? "open" : circleOpen ? "carouselVisible" : ""
           }`}
-          style={{ backgroundImage: `url(${bghome})` }}
+          style={{ backgroundImage: `url(${bghome})`,backgroundSize: 'cover', // Or 'contain', based on your need
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          height: '100vh',
+          width: '100%',}}
           onClick={handleClick}
         >
           <div className="hero-content">

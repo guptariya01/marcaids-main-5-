@@ -1,18 +1,13 @@
 .App{
   /* background-image: url('bg-home.jpeg'); */
 
-  background-size:contain;
-  background-color:#c8c4b9;
-  /* position: relative; */
-  background-size: cover;
+ 
+  /* background-color:#c8c4b9; */
   background-position: center;
-  /* display: flex; */
   flex-direction: column;
   justify-content: space-between;
-  color: white;
+  /* color: white; */
   text-align: center;
-  padding: 20px;
-  /* top: 0px; */
   z-index: 1;
 }
 .HS.carousleVisible{
@@ -21,28 +16,21 @@ top: 400px;
 z-index: -100; 
 }
 
-/* .container {
-  height: 100vh;
-  width: 100vw;
-  position: relative;
-  background-size: 100% 100%;
-  margin: auto;
-object-fit: fill;
-  } */
   
   /* General styling for the Hero Section */
   .HS {
     height:100vh;               /* Sets the section height to 100% of the viewport height */
-    width: 100vw; 
-    position: relative;
-    background-size: cover;
-    background-position: center;
+    max-width: 100%;
+    overflow-x: hidden !important;
+    /* position: relative; */
+    background-size: contain;
+    /* background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     color: white;
-    text-align: center;
-    padding: 20px;
+    text-align: center; */
+    /* padding: 20px; */
     /* cursor: pointer;
     overflow: hidden; */
   }
