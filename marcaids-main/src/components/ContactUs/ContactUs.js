@@ -15,6 +15,14 @@ const ContactForm = () => {
 
   return (
     <>
+    <div>
+      <Helmet>
+      <meta charSet="utf-8" />
+        <title>Planning to work with us? Contact us to get started</title>
+        <meta name="description" content="Ready to build your brand? Contact us +91 8816062696 or  +91 8580440313 Email: chirag@marcaids.com Address: Suncity C-35,Haryana" />
+        <meta name="keywords" content="react, seo, react-helmet" />
+      </Helmet>
+    </div>
       <div className="bg-cover bg-center" style={{ backgroundImage: `url(${bgcontact})` }}>
         <Navbar />
         <div className="text-center lg:mb-8 mb-6">

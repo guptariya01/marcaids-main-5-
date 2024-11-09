@@ -3,10 +3,20 @@ import Testimonials from "./Testimonials";
 import ClientSuccessTales from "./ClientSuccessTales";
 import Navbar from "../Navbar";
 import testimonialsbg from "../../assets/testimonialsbg.jpeg";
+import { Helmet } from "react-helmet";
 
 function TestimonialsFirst() {
   return (
     <>
+    <div>
+      <Helmet>
+      <meta charSet="utf-8" />
+        <title>Client testimonials | Know what our clients say about us</title>
+        <meta name="description" content="Why Marcaids? As the leading digital marketing agency in Houston, we excel with proven results and glowing reviews from our happy clients!" />
+        <meta name="keywords" content="react, seo, react-helmet" />
+      </Helmet>
+    </div>
+
       <div
         className="bg-cover bg-center min-h-screen flex flex-col text-white"
         style={{ backgroundImage: `url(${testimonialsbg})` }}

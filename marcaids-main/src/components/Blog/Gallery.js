@@ -8,6 +8,7 @@ import image4 from '../../assets/blogpage4.jpg';
 import image5 from '../../assets/blogpage5.jpg';
 import image6 from '../../assets/blogpage6.jpg';
 import Footer from '../Footer/Footer';
+import { Helmet } from "react-helmet";
 
 const Gallery = () => {
   const images = [
@@ -22,6 +23,14 @@ const Gallery = () => {
   return (
     <>
       <Navbar />
+      <div>
+      <Helmet>
+      <meta charSet="utf-8" />
+        <title>Latest Updates in Digital Marketing | Marcaids</title>
+        <meta name="description" content="Want to get latest updates in digital marketing? Read the best of articles published by the content wizards of Marcaids" />
+        <meta name="keywords" content="react, seo, react-helmet" />
+      </Helmet>
+    </div>
 
       {/* Large Image Section */}
       <div className="w-full h-[500px] overflow-hidden rounded-lg shadow-md mb-4">
